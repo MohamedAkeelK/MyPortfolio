@@ -8,11 +8,12 @@ const Banner = (props) => {
         <div className="contain">
           <h1>Welcome to my portfolio website</h1>
           <p>
-            Computer Science student at Queensborough Community College with a
-            passion for tech and a desire to learn. Currently in a joint program
-            with John Jay College of Criminal Justice - Majoring in Computer
-            Science and Information Security. Seeking to gain a position with a
-            growing and innovative company.
+            Hi, My name is Mohamed Akeel Khan and i am a Computer Science
+            student at Queensborough Community College with a passion for tech
+            and a desire to learn. Currently in a joint program with John Jay
+            College of Criminal Justice - Majoring in Computer Science and
+            Information Security. Seeking to gain a position with a growing and
+            innovative company.
           </p>
         </div>
         {/* <img className="banner" src={bannerImg}></img> */}

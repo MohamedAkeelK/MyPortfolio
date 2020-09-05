@@ -12,6 +12,7 @@ button {
 }
 
 header {
+  font-family: open sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +24,8 @@ header {
   /* margin-right: auto; */
   cursor: pointer;
   color: whitesmoke;
+  letter-spacing: 1px;
+  font-size: 32px;
 }
 
 .nav_links {
@@ -31,9 +34,11 @@ header {
 
 .nav_links li {
   display: inline-block;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   padding: 0px 20px;
   margin-left: 20px;
+  letter-spacing: 1px;
 }
 
 .nav_links a {
@@ -46,6 +51,7 @@ button {
   border: none;
   border-radius: 50px;
   font-size: 14px;
+  letter-spacing: 1px;
   cursor: pointer;
   background-color: rgba(0, 136, 169, 1);
   color: whitesmoke;
@@ -94,5 +100,12 @@ button:hover {
   align-items: center;
 }
 .banner > div.contain > h1 {
-  margin-bottom: 20px;
+  font-family: open sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.banner > div.contain > p {
+  line-height: 30px;
+  letter-spacing: 1.5px;
 }
