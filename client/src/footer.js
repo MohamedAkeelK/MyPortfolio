@@ -1,12 +1,9 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-// import logo from "./logo.png";
-// import { Input, Icon } from "semantic-ui-react";
 
-const NavBar = (props) => {
+const Footer = (props) => {
   return (
     <div>
-      <header>
+      <footer>
         <h2 className="logo">Akeel</h2>
         <nav>
           <ul className="nav_links">
@@ -25,9 +22,11 @@ const NavBar = (props) => {
         <a className="cta" href="/">
           <button>Contact</button>
         </a>
-      </header>
+      </footer>
+
+      <small>@ 2020 Mohamed Akeel Khans Website all rights reserved</small>
     </div>
   );
 };
 
-export default NavBar;
+export default Footer;

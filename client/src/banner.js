@@ -1,4 +1,5 @@
 import React from "react";
+import avatar from "./avatar.jpg";
 // import bannerImg from "./ny.jpg";
 
 const Banner = (props) => {
@@ -6,7 +7,8 @@ const Banner = (props) => {
     <div>
       <div className="banner">
         <div className="contain">
-          <h1>Welcome to my portfolio website</h1>
+          <img src={avatar} />
+          <h1>Welcome!</h1>
           <p>
             Hi, My name is Mohamed Akeel Khan and i am a Computer Science
             student at Queensborough Community College with a passion for tech
